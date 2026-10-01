@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ATTENDANCE_API_BASE_URL = 'http://18.206.185.174:8082/api/attendance';
+const ATTENDANCE_API_BASE_URL = 'http://localhost:8082/api/attendance';
 
 class AttendanceService {
     getAllAttendance() {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const CHECK_IN_API_BASE_URL = 'http://18.206.185.174:8082/api/checkin';
+const CHECK_IN_API_BASE_URL = 'http://localhost:8082/api/checkin';
 
 class CheckInService {
     getAllCheckIns() {

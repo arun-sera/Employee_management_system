@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const EMERGENCY_CONTACT_API_BASE_URL = 'http://18.206.185.174:8082/api/emergency-contacts';
+const EMERGENCY_CONTACT_API_BASE_URL = 'http://localhost:8082/api/emergency-contacts';
 
 class EmergencyContactService {
     getAllEmergencyContacts() {
